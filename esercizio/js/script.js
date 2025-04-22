@@ -21,7 +21,13 @@ for (let i = 0; i < emailList.length; i++) {
     }
 }
 
-console.log(email ? 'Email trovata' : 'Email non trovata');
+if (email) {
+    console.log("email trovata")
+} else {
+    console.log("email non trovata")
+}
+
+// console.log(email ? 'Email trovata' : 'Email non trovata');
 
 
 
